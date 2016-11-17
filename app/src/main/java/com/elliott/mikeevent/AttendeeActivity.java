@@ -70,7 +70,7 @@ public class AttendeeActivity extends AppCompatActivity {
                                 @Override
                                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                                    Toast.makeText(AttendeeActivity.this,"Antal personer på listan: "+ counter , Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(AttendeeActivity.this,"Antal produkter funna: "+ counter , Toast.LENGTH_SHORT).show();
 
                                     Intent i = new Intent(AttendeeActivity.this, SpecifiedDetails.class);
                                     i.putExtra("details", foodInfos.get(position).toString());
