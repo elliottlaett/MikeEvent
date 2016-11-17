@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MikeEvent</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_attendee">Attendees</string>
+    <string name="title_activity_specified_details">SpecifiedDetails</string>
+</resources>

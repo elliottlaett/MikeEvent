@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.elliott.mikeevent.MainActivity">
+
+    <item
+        android:id="@+id/action_main"
+        android:orderInCategory="80"
+        android:title="Info"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_name4" />
+
+    <item
+        android:id="@+id/action_attendees"
+        android:orderInCategory="100"
+        android:title="Attendees"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_name3" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="90"
+        android:title="About"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_name" />
+
+</menu>
